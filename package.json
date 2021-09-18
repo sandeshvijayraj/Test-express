@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Sandesh Bafna",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js run"
+  },
+  "dependencies": {
+    "mysql-promise": "^5.0.0",
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "winston": "^3.3.3",
+    "nodemon": "^2.0.12",
+    "uuid": "^8.3.2"
+  }
+}
